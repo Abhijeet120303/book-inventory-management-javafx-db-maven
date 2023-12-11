@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="book_store.BookScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff731f" height="106.0" stroke="BLACK" strokeType="INSIDE" width="1051.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="532.0" layoutX="7.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" width="1036.0" />
+      <Button fx:id="addbook" layoutX="325.0" layoutY="166.0" onAction="#addBook" mnemonicParsing="false" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: orange; -fx-border-color: black;" text="Add Book">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="editbook" layoutX="325.0" layoutY="340.0" onAction="#editBook"  mnemonicParsing="false" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: orange; -fx-border-color: black;" text="Edit Book">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitebook" layoutX="325.0" layoutY="516.0" onAction="#quiteBook"  mnemonicParsing="false" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: white; -fx-border-color: red;" text="Quit" textFill="RED">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Label layoutX="37.0" layoutY="36.0" text="Product Management" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="740.0" layoutY="54.0" radius="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="731.0" layoutY="35.0" text="A">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="788.0" layoutY="39.0" text="Abhijeet (Admin)" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="searchbook" onAction="#searchBook"  layoutX="325.0" layoutY="251.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: orange; -fx-border-color: black;" text="Search Book">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="deletebook" onAction="#deleteBook"  layoutX="325.0" layoutY="431.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="382.0" style="-fx-background-color: orange; -fx-border-color: black;" text="Delete Book">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

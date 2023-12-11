@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller="home_page.HomePageScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="528.0" prefWidth="954.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8d1f" height="99.0" stroke="BLACK" strokeType="INSIDE" width="954.0" />
+      <Label layoutX="83.0" layoutY="22.0" text="Book Store Inventory Management System" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="login" layoutX="106.0" onAction="#Login" layoutY="180.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="351.0" style="-fx-background-color: green; -fx-border-color: black;" text="Log In">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="signin" layoutX="106.0" onAction="#Signin" layoutY="317.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="351.0" style="-fx-background-color: white; -fx-border-color: red;" text="Sign In" textFill="#f20303">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="357.0" fitWidth="305.0" layoutX="599.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./th%20(1).jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
